@@ -1,1 +1,1 @@
-# algorithms
+# Algorithm studies
