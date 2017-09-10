@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int subarrays_greater_number(int arr[], int size);
 int subarrays_greater_number_tree(int arr[], int i, int j);
 
@@ -5,6 +7,9 @@ int main(){
 
     int arr[] = {0, 1, 2, 79, 4, -3, 166, 7, 78, 9};
     printf("%d", subarrays_greater_number(arr, sizeof(arr) / sizeof(arr[0])));
+
+	printf("\n\nPress ENTER key to Continue\n");
+	getchar();
 
     return 0;
 }

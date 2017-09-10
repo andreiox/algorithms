@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 char* reverse_string(char arr[], int size);
 char* reverse_string_tail(char arr[], int p1, int p2);
 
@@ -5,6 +7,9 @@ int main(){
 
     char arr[] = "github.com/andreiox";
     printf("%s", reverse_string(arr, 19));
+
+	printf("\n\nPress ENTER key to Continue\n");
+	getchar();
 
     return 0;
 }

@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int binary_search(int arr[], int size, int target);
 int binary_search_tail(int arr[], int target, int start, int end);
 
@@ -6,6 +8,9 @@ int main(){
     int arr[] = {0, 1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 50};
 
     printf("%d", binary_search(arr, sizeof(arr) / sizeof(arr[0]), 50));
+
+	printf("\n\nPress ENTER key to Continue\n");
+	getchar();
 
     return 0;
 }
