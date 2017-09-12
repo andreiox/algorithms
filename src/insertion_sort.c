@@ -35,7 +35,7 @@ void insertion_sort(int *arr, int size){
     }
 }
 
-void imprime_array(int *arr, int size){
+void print_array(int *arr, int size){
     int i;
     for(i=0; i<size; i++)
         printf("%d ", arr[i]);
