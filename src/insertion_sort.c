@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 void insertion_sort(int *arr, int size);
-void imprime_array(int *arr, int size);
+void print_array(int *arr, int size);
 
 int main(){
 
     int arr[] = { 2, 1, 8, 2, 6, 8, 9, 7 };
     int size = sizeof(arr) / sizeof(arr[0]);
 
-    printf("Antes: ");
-    imprime_array(arr, size);
+    printf("Before: ");
+    print_array(arr, size);
     insertion_sort(arr, size);
-    printf("\nDepois: ");
-    imprime_array(arr, size);
+    printf("\nAfter: ");
+    print_array(arr, size);
 
     printf("\n\nPress ENTER key to Continue\n");
     getchar();
