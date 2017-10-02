@@ -52,7 +52,7 @@ int partition(int *arr, int i, int j){
 
 int get_median(int i, int j, int k){
     if(i > j){
-        if(k > i) return k;
+        if(k > i) return i;
         if(k > j) return k;
         return j;
     }
