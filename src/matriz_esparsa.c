@@ -5,8 +5,8 @@
 
 void cria(LISTA *list);
 int  insereLinha(LISTA *list, PONT pont);
-int  insereColuna(LISTA* list, PONT pont);
-void imprimeLinha(LISTA* list, int linha, int tamanho);
+int  insereColuna(LISTA *list, PONT pont);
+void imprimeLinha(LISTA *list, int linha, int tamanho);
 
 int main(){
 
@@ -72,7 +72,7 @@ int insereLinha(LISTA* list, PONT pont){
     }
 }
 
-int insereLinha(LISTA* list, PONT pont){
+int insereColuna(LISTA* list, PONT pont){
     PONT p = list->primeiro;
     if(p == NULL){
         p = PONT;
