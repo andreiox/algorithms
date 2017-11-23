@@ -10,12 +10,12 @@ typedef struct {
 } MATRIZ;
 
 void criaMatriz(MATRIZ*);
-void insereMatriz(MATRIZ*,int,int,double);
+void insereMatriz(MATRIZ*, int, int, double);
 int  vaziaMatriz(MATRIZ*);
 void leMatriz(MATRIZ*);
-void somaMatriz(MATRIZ*,MATRIZ*,MATRIZ*);
-void multiplicaMatriz(MATRIZ*,MATRIZ*,MATRIZ*);
 void imprimeMatriz(MATRIZ*);
 void apagaMatriz(MATRIZ*);
+//void somaMatriz(MATRIZ*,MATRIZ*,MATRIZ*);
+//void multiplicaMatriz(MATRIZ*,MATRIZ*,MATRIZ*);
 
 #endif

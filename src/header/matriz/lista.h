@@ -19,9 +19,10 @@ typedef struct {
 } LISTA;
 
 
-void cria(LISTA*);
-int  insereLinha(LISTA*,PONT);
-int  insereColuna(LISTA*,PONT);
-void imprimeLinha(LISTA*,int,int);
+void criaListaColuna(LISTA*, int);
+void criaListaLinha(LISTA*, int);
+void insereLinha(PONT, PONT);
+void insereColuna(PONT, PONT);
+void imprimeLinha(LISTA*, int, int);
 
 #endif
