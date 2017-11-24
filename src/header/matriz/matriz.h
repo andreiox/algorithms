@@ -15,7 +15,7 @@ int  vaziaMatriz(MATRIZ*);
 void leMatriz(MATRIZ*);
 void imprimeMatriz(MATRIZ*);
 void apagaMatriz(MATRIZ*);
-//void somaMatriz(MATRIZ*,MATRIZ*,MATRIZ*);
-//void multiplicaMatriz(MATRIZ*,MATRIZ*,MATRIZ*);
+void somaMatriz(MATRIZ*, MATRIZ*, MATRIZ*);
+void multiplicaMatriz(MATRIZ*, MATRIZ*, MATRIZ*);
 
 #endif
